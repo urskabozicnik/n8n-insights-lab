@@ -1,0 +1,4 @@
+The customer gave you the single most useful fact in the ticket and drew the
+wrong conclusion from it. Which of the three tables did they look at, and which
+one does the dashboard actually read? Check the other one. Then check whether it
+has moved at all since the migration.

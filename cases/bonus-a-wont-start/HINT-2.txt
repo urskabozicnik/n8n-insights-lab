@@ -1,0 +1,2 @@
+Two variables, one module name. n8n is being told two contradictory things and
+would rather not guess. Which of the two was ever needed?

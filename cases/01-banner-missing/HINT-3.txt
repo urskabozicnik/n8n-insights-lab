@@ -1,0 +1,3 @@
+Look at what the container was actually handed, not at what the plan says it
+should get. Then read the comment next to it, and think about whether the reason
+it was written is still true on 2.33.0.

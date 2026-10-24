@@ -1,0 +1,27 @@
+{
+  "id": "InsLabNightly0003",
+  "name": "nightly-sync (CRM -> warehouse)",
+  "active": true,
+  "nodes": [
+    {
+      "id": "b1",
+      "name": "Every 10 seconds",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0],
+      "parameters": { "rule": { "interval": [ { "field": "seconds", "secondsInterval": 10 } ] } }
+    },
+    {
+      "id": "b2",
+      "name": "Sync",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [240, 0],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Every 10 seconds": { "main": [[{ "node": "Sync", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" }
+}

@@ -1,0 +1,4 @@
+The customer handed you a working control and a broken case on the same instance.
+List every difference between the two workflows, then every difference in how
+their executions are handled on this stack. The sentence in the ticket that
+starts with "that can't be related" is the one to test first.

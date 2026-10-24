@@ -1,0 +1,3 @@
+The customer says "nothing about insights in the logs". Check that claim yourself,
+and check the top of the log, not the tail: a module that never loaded says so
+once, at boot, and never again.

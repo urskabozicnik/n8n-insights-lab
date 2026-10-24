@@ -1,0 +1,2 @@
+Read the three values the customer set and work out, per run, how many rows the
+job is allowed to touch. Then look at the raw table and divide.

@@ -1,0 +1,4 @@
+The customer has already told you which table has data up to when, and which
+table is empty. Put those two facts next to the pipeline diagram in the
+cheatsheet. An empty raw table and a frozen compacted table point at the same
+stage, and it is not the one the customer named.

@@ -1,0 +1,3 @@
+When rows are copied into Postgres by hand, the rows arrive. Something that is
+not a row does not. Ask Postgres what it thinks the next id for that table should
+be, and compare it with the biggest id that is already there.

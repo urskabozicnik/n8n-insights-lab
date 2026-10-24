@@ -1,0 +1,37 @@
+{
+  "id": "InsLabInvoice0004",
+  "name": "invoice-matching (dynamic time saved)",
+  "active": true,
+  "nodes": [
+    {
+      "id": "c1",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "parameters": { "path": "invoices", "options": {} },
+      "webhookId": "inslab-invoices"
+    },
+    {
+      "id": "c2",
+      "name": "Five invoices",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [220, 0],
+      "parameters": { "jsCode": "return Array.from({length: 5}, (_, i) => ({ json: { invoice: `INV-${1000 + i}` } }));" }
+    },
+    {
+      "id": "c3",
+      "name": "Time Saved",
+      "type": "n8n-nodes-base.timeSaved",
+      "typeVersion": 1,
+      "position": [440, 0],
+      "parameters": { "mode": "perItem", "minutesSaved": 3 }
+    }
+  ],
+  "connections": {
+    "Webhook": { "main": [[{ "node": "Five invoices", "type": "main", "index": 0 }]] },
+    "Five invoices": { "main": [[{ "node": "Time Saved", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1", "timeSavedMode": "dynamic" }
+}

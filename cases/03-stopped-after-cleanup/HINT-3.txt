@@ -1,0 +1,5 @@
+One bad passenger stops the whole bus. The question is which workflow the bad
+passenger belongs to, why the instance can no longer attribute it, and whether
+the customer's "handful" of deleted rows included something that was still
+active. Fixing the data alone will not be enough on this version; think about
+where the stuck passengers are sitting.

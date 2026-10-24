@@ -1,0 +1,3 @@
+"Didn't see anything about insights failing" is a grep problem. The job that
+moves data between those two tables runs every minute in this lab. Watch one full
+minute of logs and read every line that mentions a constraint.

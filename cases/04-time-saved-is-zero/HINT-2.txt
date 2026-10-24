@@ -1,0 +1,4 @@
+Where does an execution finish on this stack, and where does the Insights
+collector run? Those are two different containers. The fixed value lives in the
+workflow settings. The dynamic value lives in the run data of the nodes that
+executed. Which of those two does the collector need to open, and does it?

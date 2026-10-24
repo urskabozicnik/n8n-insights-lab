@@ -1,0 +1,2 @@
+A container in a restart loop has logs. The first twenty lines of the first boot
+attempt will tell you what n8n objected to, in a full sentence.

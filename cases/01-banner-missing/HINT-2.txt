@@ -1,0 +1,4 @@
+"Not visible" and "not running" are different problems. The banner is gated by the
+licence; the module is gated by configuration. Which one does the Overview page
+tell you about, and which one does the summary endpoint tell you about? A 404 and
+a 403 are not the same answer.

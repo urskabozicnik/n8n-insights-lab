@@ -1,0 +1,3 @@
+Insights is on by default. The customer never needed to enable it; they needed to
+stop disabling it. The reply should say that in one sentence, without making
+them feel silly for following a docs page that is about something else.

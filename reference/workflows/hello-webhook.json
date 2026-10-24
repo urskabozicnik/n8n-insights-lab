@@ -1,0 +1,28 @@
+{
+  "id": "InsLabHello000001",
+  "name": "hello-webhook",
+  "active": true,
+  "nodes": [
+    {
+      "id": "a1",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "parameters": { "path": "hello", "options": {} },
+      "webhookId": "inslab-hello"
+    },
+    {
+      "id": "a2",
+      "name": "Do nothing",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [240, 0],
+      "parameters": {}
+    }
+  ],
+  "connections": {
+    "Webhook": { "main": [[{ "node": "Do nothing", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1", "timeSavedPerExecution": 10 }
+}

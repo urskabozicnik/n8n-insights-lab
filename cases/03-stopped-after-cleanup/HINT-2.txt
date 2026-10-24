@@ -1,0 +1,4 @@
+This stack logs at debug level. Watch the log for thirty seconds without
+filtering for "error". Something is being attempted on a short cycle, and
+failing on the same cycle. Then ask what the error message is looking for, and
+where in the database that thing would normally be.

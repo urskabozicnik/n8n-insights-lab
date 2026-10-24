@@ -1,0 +1,4 @@
+Throttling has three knobs that limit work per run and one that spaces the work
+out. The customer turned the first kind to the floor. The reply should give them
+values that still protect the ERP (delay, runtime cap) without starving the job
+(batch size, batches per run), and tell them the backlog will drain, not vanish.

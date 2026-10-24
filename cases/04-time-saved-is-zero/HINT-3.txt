@@ -1,0 +1,4 @@
+Search Linear for the symptom before you search for a fix. This one has an issue,
+it is open, and the issue comment has the only known workaround for this version.
+Anything that makes the main process load the full execution data after a run
+would do it. The reply has to be honest that this is a bug, not the customer.

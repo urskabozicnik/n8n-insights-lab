@@ -1,0 +1,3 @@
+Look at the customer's own compose file and the comment above the block they
+added. Then count executions in the database with and without the soft-deleted
+ones. The list in the UI shows one of those two numbers.

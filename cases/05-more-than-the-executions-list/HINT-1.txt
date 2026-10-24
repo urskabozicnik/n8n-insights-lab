@@ -1,0 +1,3 @@
+Two counters, two tables, two retention policies. Before you decide which number
+is wrong, find out what each one is counting and what each one throws away.
+Only one of them has a setting that mentions a maximum count.
